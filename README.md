@@ -1,3 +1,3 @@
 # hadoop
 
-This project is a Hadoop application which implements word count algorithm with performance optimizations.
+This project is a Hadoop application which implements a word count algorithm with performance optimizations.
