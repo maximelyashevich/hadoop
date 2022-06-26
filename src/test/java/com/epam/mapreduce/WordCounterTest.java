@@ -69,7 +69,6 @@ public class WordCounterTest {
     public void testMapReduce() throws IOException {
         mapReduceDriver.withInput(new LongWritable(1), new Text("My sword, I say!"));
 
-        mapReduceDriver.addOutput(new Text("i"), new IntWritable(1));
         mapReduceDriver.addOutput(new Text("my"), new IntWritable(1));
         mapReduceDriver.addOutput(new Text("say!"), new IntWritable(1));
         mapReduceDriver.addOutput(new Text("sword,"), new IntWritable(1));

@@ -21,6 +21,6 @@ public final class DataUtils {
     }
 
     public static boolean isStopWord(final String data) {
-        return stopWords.contains(data);
+        return stopWords.stream().anyMatch(data::equalsIgnoreCase);
     }
 }
