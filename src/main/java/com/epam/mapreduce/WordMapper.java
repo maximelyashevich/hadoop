@@ -8,7 +8,7 @@ import org.apache.hadoop.mapreduce.Mapper;
 
 import java.util.StringTokenizer;
 
-import static com.epam.mapreduce.DataUtils.isStopWord;
+import static com.epam.util.DataUtils.isStopWord;
 
 
 public class WordMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
